@@ -1,0 +1,20 @@
+#TTYtter settings
+avatar=eog %U&
+urlopen=firefox %U&
+ssl=1
+pause=auto
+mentions=1
+ansi=0
+vcheck=1
+newline=1
+dostream=1
+hold=15
+backload=40
+simplestart=1
+verify=1
+readline="ttytter stormdragon2976 colindean vkoser reuteras "
+exts=/home/seif/.ttytter-extensions/libnotifyperl.pl,/home/seif/.ttytter-extensions/r2a.pl,/home/seif/.ttytter-extensions/tts.pl,/home/seif/.ttytter-extensions/timestamp.pl,/home/seif/.ttytter-extensions/client.pl
+notifytype=libnotifyperl
+notifies=dm,me,reply
+#end TTYtter settings
+

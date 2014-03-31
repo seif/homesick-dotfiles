@@ -1,3 +1,6 @@
 [submodule "home/.vim/bundle/vundle"]
 	path = home/.vim/bundle/vundle
 	url = https://github.com/gmarik/vundle.git
+[submodule "home/.ttytter-extensions"]
+	path = home/.ttytter-extensions
+	url = git@github.com:seif/ttytter-extensions.git
