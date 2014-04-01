@@ -1,6 +1,78 @@
-[submodule "home/.vim/bundle/vundle"]
-	path = home/.vim/bundle/vundle
-	url = https://github.com/gmarik/vundle.git
 [submodule "home/.ttytter-extensions"]
 	path = home/.ttytter-extensions
 	url = git@github.com:seif/ttytter-extensions.git
+[submodule "home/.vim/bundle/vim-rails"]
+	path = home/.vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "home/.vim/bundle/jellybeans"]
+	path = home/.vim/bundle/jellybeans
+	url = https://github.com/nanotech/jellybeans.vim.git
+[submodule "home/.vim/bundle/vim-addon-mw-utils"]
+	path = home/.vim/bundle/vim-addon-mw-utils
+	url = https://github.com/MarcWeber/vim-addon-mw-utils.git
+[submodule "home/.vim/bundle/tlib_vim"]
+	path = home/.vim/bundle/tlib_vim
+	url = https://github.com/tomtom/tlib_vim.git
+[submodule "home/.vim/bundle/vim-snipmate"]
+	path = home/.vim/bundle/vim-snipmate
+	url = https://github.com/garbas/vim-snipmate.git
+[submodule "home/.vim/bundle/vim-chef"]
+	path = home/.vim/bundle/vim-chef
+	url = https://github.com/vadv/vim-chef.git
+[submodule "home/.vim/bundle/nerdtree"]
+	path = home/.vim/bundle/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
+[submodule "home/.vim/bundle/vim-bufexplorer"]
+	path = home/.vim/bundle/vim-bufexplorer
+	url = https://github.com/jlanzarotta/bufexplorer.git
+[submodule "home/.vim/bundle/vim-coffee-script"]
+	path = home/.vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "home/.vim/bundle/vim-css-color"]
+	path = home/.vim/bundle/vim-css-color
+	url = https://github.com/skammer/vim-css-color.git
+[submodule "home/.vim/bundle/vim-css3-syntax"]
+	path = home/.vim/bundle/vim-css3-syntax
+	url = https://github.com/hail2u/vim-css3-syntax.git
+[submodule "home/.vim/bundle/vim-cucumber"]
+	path = home/.vim/bundle/vim-cucumber
+	url = https://github.com/tpope/vim-cucumber.git
+[submodule "home/.vim/bundle/vim-endwise"]
+	path = home/.vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "home/.vim/bundle/vim-flavored-markdown"]
+	path = home/.vim/bundle/vim-flavored-markdown
+	url = https://github.com/jtratner/vim-flavored-markdown.git
+[submodule "home/.vim/bundle/vim-git"]
+	path = home/.vim/bundle/vim-git
+	url = https://github.com/tpope/vim-git.git
+[submodule "home/.vim/bundle/vim-fugitive"]
+	path = home/.vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "home/.vim/bundle/vim-markdown"]
+	path = home/.vim/bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
+[submodule "home/.vim/bundle/vim-rake"]
+	path = home/.vim/bundle/vim-rake
+	url = https://github.com/tpope/vim-rake.git
+[submodule "home/.vim/bundle/vim-bundler"]
+	path = home/.vim/bundle/vim-bundler
+	url = https://github.com/tpope/vim-bundler.git
+[submodule "home/.vim/bundle/vim-surround"]
+	path = home/.vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "home/.vim/bundle/vim-repeat"]
+	path = home/.vim/bundle/vim-repeat
+	url = https://github.com/tpope/vim-repeat.git
+[submodule "home/.vim/bundle/vimerl"]
+	path = home/.vim/bundle/vimerl
+	url = https://github.com/oscarh/vimerl.git
+[submodule "home/.vim/bundle/Omnisharp"]
+	path = home/.vim/bundle/Omnisharp
+	url = https://github.com/nosami/Omnisharp.git
+[submodule "home/.vim/bundle/vim-dispatch"]
+	path = home/.vim/bundle/vim-dispatch
+	url = https://github.com/tpope/vim-dispatch.git
+[submodule "home/.vim/bundle/supertab"]
+	path = home/.vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git

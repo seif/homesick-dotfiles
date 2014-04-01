@@ -1,39 +1,7 @@
 set nocompatible" be iMproved
 filetype off" required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-
-
-" vundle plugins
-Bundle 'L9'
-Bundle 'FuzzyFinder'
-Bundle 'tpope/vim-rails.git'
-Bundle 'nanotech/jellybeans.vim.git'
-Bundle 'MarcWeber/vim-addon-mw-utils'
-Bundle 'tomtom/tlib_vim'
-Bundle 'garbas/vim-snipmate'
-Bundle 'vadv/vim-chef'
-Bundle 'scrooloose/nerdtree'
-Bundle 'slack/vim-bufexplorer'
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'skammer/vim-css-color'
-Bundle 'hail2u/vim-css3-syntax'
-Bundle 'tpope/vim-cucumber'
-Bundle 'tpope/vim-endwise'
-Bundle 'jtratner/vim-flavored-markdown'
-Bundle 'tpope/vim-git'
-Bundle 'tpope/vim-fugitive'
-Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-rake'
-Bundle 'tpope/vim-bundler'
-Bundle 'tpope/vim-surround'
-Bundle 'tpope/vim-repeat'
-Bundle 'oscarh/vimerl'
-Bundle 'nosami/Omnisharp'
-Bundle 'tpope/vim-dispatch'
-Bundle 'ervandew/supertab.git'
-Bundle 'tsaleh/vim-matchit'
+execute pathogen#infect()
 
 colorscheme jellybeans
 
