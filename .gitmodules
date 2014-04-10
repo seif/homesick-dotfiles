@@ -1,6 +1,3 @@
-[submodule "home/.ttytter-extensions"]
-	path = home/.ttytter-extensions
-	url = git@github.com:seif/ttytter-extensions.git
 [submodule "home/.vim/bundle/vim-rails"]
 	path = home/.vim/bundle/vim-rails
 	url = https://github.com/tpope/vim-rails.git
