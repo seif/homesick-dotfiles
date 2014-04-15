@@ -1,8 +1,8 @@
 [include]
     path=.gitprivate
 [core]
-    autocrlf = input
     editor = vim
+    excludesfile = /opt/boxen/config/git/gitignore
 [branch]
     autosetupmerge = always
 [rerere]
@@ -50,14 +50,9 @@
     ra = !git r --all
     l = "!. ~/.githelpers && pretty_git_log"
     la = !git l --all
-[diff]
-	tool = bc3
-[difftool]
-	bc3 = trustExitCode
-[merge]
-	tool = bc3
-[mergetool]
-	bc3 = trustExitCode
-[mergetool "bc3"]
-	cmd = /usr/bin/bcompare $LOCAL\n    $REMOTE $BASE $MERGED
-	trustExitCode = true
+
+[hub]
+protocol = https
+
+[credential]
+helper = /opt/boxen/bin/boxen-git-credential
