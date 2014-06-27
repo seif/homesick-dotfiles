@@ -73,3 +73,6 @@
 [submodule "home/.vim/bundle/supertab"]
 	path = home/.vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
+[submodule "home/.rbenv"]
+	path = home/.rbenv
+	url = https://github.com/sstephenson/rbenv.git
