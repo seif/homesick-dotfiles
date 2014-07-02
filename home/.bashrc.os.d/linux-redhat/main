@@ -37,8 +37,7 @@ cd `dirname ${SCRIPT_PATH}` > /dev/null
 SCRIPT_PATH=`pwd`;
 popd  > /dev/null
 
-
-if ([ -h "${SCRIPT_PATH}"/*.inc ]) then
+if ls "${SCRIPT_PATH}"/*.inc &> /dev/null; then
   for SRC in "${SCRIPT_PATH}"/*.inc
   do
     source "$SRC"
