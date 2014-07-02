@@ -76,3 +76,6 @@
 [submodule "home/.rbenv"]
 	path = home/.rbenv
 	url = https://github.com/sstephenson/rbenv.git
+[submodule "home/.nvm"]
+	path = home/.nvm
+	url = https://github.com/creationix/nvm.git
