@@ -38,7 +38,9 @@ SCRIPT_PATH=`pwd`;
 popd  > /dev/null
 
 
-for SRC in "${SCRIPT_PATH}"/*.inc
-do
-  source "$SRC"
-done
+if ([ -h "${SCRIPT_PATH}"/*.inc ]) then
+  for SRC in "${SCRIPT_PATH}"/*.inc
+  do
+    source "$SRC"
+  done
+fi
