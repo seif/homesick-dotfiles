@@ -1,4 +1,5 @@
 # vim: filetype=sh:
 alias gti=git
+alias nom=npm
 alias pjson='python -mjson.tool'
 alias hs='homeshick'
