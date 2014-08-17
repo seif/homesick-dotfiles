@@ -50,9 +50,7 @@
 	l = !. ~/.githelpers && pretty_git_log
 	la = !git l --all
 [hub]
-	protocol = https
-[credential]
-	helper = /opt/boxen/bin/boxen-git-credential
+	protocol = git
 [diff]
 	tool = bcomp
 [difftool]
