@@ -49,6 +49,8 @@
 	ra = !git r --all
 	l = !. ~/.githelpers && pretty_git_log
 	la = !git l --all
+    #   issues = jira issues
+	issues = "!f() { : git log ; echo 'Printing issue keys'; git log --oneline $@ | egrep -o [A-Z]+-[0-9]+ | sort | uniq; }; f"
 [hub]
 	protocol = git
 [diff]
@@ -65,3 +67,5 @@
 [mergetool "bcomp"]
 	trustExitCode = true
 	cmd = /usr/bin/bcompare "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
+[credential]
+	helper = gnome-keyring
