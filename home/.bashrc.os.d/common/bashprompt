@@ -145,6 +145,4 @@ function shell_colored {
 
    PS1+="${PROMPT_SOL_CYAN}{ \w }$(ps1_git_prompt)\\n${PROMPT_SOL_RED}~>${PROMPT_NO_COLOUR} "
 }
-PROMPT_COMMAND=shell_colored
-
-
+PROMPT_COMMAND="shell_colored;  ${PROMPT_COMMAND}"
