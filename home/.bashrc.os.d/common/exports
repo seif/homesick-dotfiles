@@ -1,2 +1,3 @@
 export TERM=xterm-256color
 export CDPATH=$CDPATH:/home/seif/projects
+export MONO_IOMAP=all
