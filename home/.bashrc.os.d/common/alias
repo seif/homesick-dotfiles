@@ -3,3 +3,5 @@ alias gti=git
 alias nom=npm
 alias pjson='python -mjson.tool'
 alias hs='homeshick'
+alias wl='wunderline'
+alias wlwa='wunderline -l Work add'
