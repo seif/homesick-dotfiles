@@ -71,3 +71,9 @@
 	cmd = /usr/bin/bcompare "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
 [credential]
 	helper = gnome-keyring
+[user]
+	signingkey = 9BFCD065
+[commit]
+	gpgsign = true
+[gpg]
+  program = gpg2
