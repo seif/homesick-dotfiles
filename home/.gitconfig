@@ -66,13 +66,14 @@
 [mergetool]
 	prompt = false
 	bc3 = trustExitCode
+	keepBackup = false
 [mergetool "bcomp"]
 	trustExitCode = true
 	cmd = /usr/bin/bcompare "$LOCAL" "$REMOTE" "$BASE" "$MERGED"
 [credential]
 	helper = gnome-keyring
 [user]
-	signingkey = 9BFCD065
+	signingkey = 03546AC7
 [commit]
 	gpgsign = true
 [gpg]
