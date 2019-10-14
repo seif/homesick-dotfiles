@@ -11,3 +11,5 @@ fi
 
 source ~/bin/git-completion.bash
 source ~/bin/git-flow-completion.bash
+source <(kubectl completion bash)
+source <(helm completion bash)
